@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brand-name{
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    color: #ede8f5;   
+}
+
+.title-text{
+    font-family: "Prata", serif;
+    font-weight: 400; 
+    color: #ede8f5; 
+}
+
+.bg-main{
+    background-color: #3d52a0;  
+} 
+
+#hero{  
+    background-image: url('./assets/image.jpg'); 
+    height: 100vh; 
+    background-size: cover;  
+} 
+
+.hero-title{
+    font-family: "Prata", serif;
+    font-weight: 500;    
+    color: black;        
+    font-size: 7rem;     
+} 
+
+.hero-subtitle{
+    font-family: "Open Sans", serif;
+    font-weight: 400;     
+    color: #ede8f5;    
+    font-size: 1.5rem;    
+} 
+
+.btn-main{
+    padding: 10px;  
+    border-radius: 10px; 
+    background-color: #7091e6;  
+    color: #ede8f5; 
+    border: none; 
+}
+
+.btn-main:hover{ 
+    cursor: pointer; 
+}   
+
+.semi-title{
+    font-family: 'Prata', sans-serif;
+    font-weight: 700; 
+    color: #3d52a0 ;
+}
+
+.img-card{
+    height: 200px; 
+}
+
+.card{
+    padding: 0 !important; 
+}
+
+.card-body p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;  
+}
+
+#featured{
+    background-color: #ede8f5; 
+}
+#footer{
+    background-color: #3d52a0; 
+    color: #ede8f5;  
+}
+
+#footer-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;  
+}
+
+.card-about {
+    border-radius: 50%;   
+    width: 250px;         
+    height: 250px;          
+    overflow: hidden;    
+    display: flex;        
+    align-items: center; 
+    justify-content: center;
+}
+
+.card-about img {
+    width: 100%;         
+    height: 100%;       
+}
+
+.sub-title{
+    font-family: 'Prata', sans-serif;
+    font-weight: 700; 
+    font-size: 1.5rem;
+    text-align: center; 
+    color: #3d52a0;  
+}
+ 
+
+/* For tablet above */
+@media screen and (max-width: 768px){
+    .hero-title{ 
+        font-size: 4rem;  
+        text-align: center; 
+    }
+
+    .hero-subtitle{
+        font-size: 1.2rem; 
+        text-align: center; 
+    }
+
+    .btn-hero{
+        display: flex; 
+        justify-content: center; 
+    }
+
+    .semi-title{
+        text-align: center; 
+    } 
+
+    .carousel{
+        width: 75% !important; 
+        margin: 2rem 0; 
+    }
+    
+    #hero{
+        height: 50%;   
+    }
+}
+ 
+/* For small */
+@media screen and (max-width: 564px){
+    .hero-title{ 
+        font-size: 3rem;  
+    } 
+
+    .hero-subtitle{
+        display: none; 
+    }
+
+    .card-about {  
+        width: 150px;         
+        height: 150px;    
+    }
+}  
+
+  
